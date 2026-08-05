@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  name: user-service-config
+  namespace: microservices-app
+
+data:
+  PORT: "3000"
+  DB_HOST: "postgres"
+  DB_PORT: "5432"
+  DB_NAME: "usersdb"

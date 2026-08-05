@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+
+metadata:
+  name: postgres-pvc
+  namespace: microservices-app
+
+spec:
+  storageClassName: ebs-sc
+
+  accessModes:
+    - ReadWriteOnce
+
+  resources:
+    requests:
+      storage: 10Gi
