@@ -18,7 +18,13 @@ spec:
         image: amalkumargp/orderms:latest
         ports:
         - containerPort: 3000
-
+        resources:
+          requests:
+            cpu: "100m"
+            memory: "128Mi"
+          limits:
+            cpu: "500m"
+            memory: "512Mi"
         env:
         - name: PORT
           value: "3000"
