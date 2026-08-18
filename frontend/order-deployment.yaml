@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: order-service
-        image: amalkumargp/orderms:latest
+        image: amalkumargp/orderms:e9b02b7a4879d00cfbf8d1289801c99dd2616579
         ports:
         - containerPort: 3000
         resources:
