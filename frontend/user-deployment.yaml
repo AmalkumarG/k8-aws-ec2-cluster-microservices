@@ -21,7 +21,7 @@ spec:
       containers:
       - name: user-service
 
-        image: amalkumargp/userms:e9b02b7a4879d00cfbf8d1289801c99dd2616579
+        image: amalkumargp/userms:c7ad2137ac7e7b638345d240a6e73f5714d40dc1
 
         imagePullPolicy: Always
 
